@@ -1,0 +1,36 @@
+# Curated Greenhouse/Lever/Ashby company boards, per Sara_Job_Arch.docx §"Frozen decisions":
+# "Sources: Adzuna + USAJobs + curated Greenhouse / Lever / Ashby boards."
+#
+# Every slug below was hit live and confirmed to return real postings (or a valid
+# empty board) on 2026-07-27 — this isn't a guessed list. Job counts change daily;
+# a slug returning 0 today just means that company has nothing open right now.
+#
+# `category` matches the weekly theme pattern from JARVIS_Plan.pdf §05 (the older
+# doc, still authoritative for details the locked Sara_Job_Arch.docx doesn't
+# restate): midsize | university | gov | mnc | startup. There is no curated
+# source for "university" — that theme day currently only gets Adzuna results.
+#
+# Verify a slug before adding a new one:
+#   Greenhouse: https://boards-api.greenhouse.io/v1/boards/<slug>/jobs
+#   Lever:      https://api.lever.co/v0/postings/<slug>?mode=json
+#   Ashby:      https://api.ashbyhq.com/posting-api/job-board/<slug>
+
+greenhouse:
+  stripe: mnc
+  airtable: midsize
+  brex: midsize
+  discord: midsize
+  robinhood: mnc
+
+lever:
+  palantir: mnc
+  wealthfront: midsize
+  plaid: midsize
+
+ashby:
+  linear: startup
+  openai: mnc
+  watershed: startup
+  ramp: midsize
+  notion: midsize
+  posthog: startup
